@@ -29,12 +29,12 @@ export default function Login() {
     }
   };
 
-  // Placeholder functions for Google and GitHub login
-  const handleGoogleLogin = () => {
-    setGoogleLoading(true);
-    // Implement Google OAuth login
-    setGoogleLoading(false);
-  };
+  // // Placeholder functions for Google and GitHub login
+  // const handleGoogleLogin = () => {
+  //   setGoogleLoading(true);
+  //   // Implement Google OAuth login
+  //   setGoogleLoading(false);
+  // };
   
 
   return (
@@ -92,7 +92,7 @@ export default function Login() {
           </Form.Item>
         </Form>
 
-        <div className="text-center ">
+        {/* <div className="text-center ">
           <Button 
             onClick={handleGoogleLogin} 
             className="w-full flex items-center justify-center space-x-2" 
@@ -103,7 +103,7 @@ export default function Login() {
             <GoogleOutlined />
             <span>Sign in with Google</span>
           </Button>
-        </div>
+        </div> */}
 
         <div className="text-black text-center">
           Don&apos;t have an account?{' '}
